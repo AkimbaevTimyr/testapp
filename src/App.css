@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.container{
+  max-width: 1000px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main_items{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.card{
+  background-color: green;
+  width: 200px;
+  padding: 15px;
   color: white;
+  text-align: center;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.card_date{
+  color: white;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_weather{
+  margin-bottom: 20px;
+}
+
+.button-none{
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
 }
